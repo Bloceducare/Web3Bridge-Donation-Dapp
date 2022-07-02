@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #222222;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
+
+header {
+  /* background-color: #f9f9f9a6; */
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+header img {
+  width: 100px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  margin-left: 50px;
+}
+
+/* header ul li button {
+  border: 2px solid white;
+  color: white;
+  background-color: #f7b733;
+  padding: 15px;
+  border-radius: 16px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
+
+/* connectButton button */
+/* .sc-eKszNL {
+  border: 2px solid white !important;
+  color: white !important; */
+/* background-color: #f7b733 !important; */
+/* background-color: #f8442a !important;
+  padding: 15px !important;
+  border-radius: 16px !important;
+  outline: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+} */
+
+/* connectButton's span */
+/* .sc-hiMGwR {
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.lcyeQD {
+  color: #2e7daf !important;
+} */
+
+header ul li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.intro {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 80px;
+}
+
+.intro p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.input {
+  width: 30%;
+  margin: 0 auto;
+  background-color: red;
+  display: flex;
+  margin-top: 30px;
+}
+
+.input input,
+button {
+  display: block;
+  height: 40px;
+}
+
+.input input {
+  padding: 0 10px;
+  width: 70%;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.input button {
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: #f8442a;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.2s;
+}
+
+.input button:hover {
+  background-color: #d4361e;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 160px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+footer span {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  .intro {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .intro h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .intro p {
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .input {
+    width: 75%;
+    margin: 0 auto;
+    background-color: red;
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .input input,
+  button {
+    display: block;
+    height: 40px;
+  }
+
+  .input input {
+    padding: 0 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  }
+
+  .input button {
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: #f8442a;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    font-size: 16px;
+    color: white;
+    transition: all 0.2s;
+  }
+
+  .input button:hover {
+    background-color: #d4361e;
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 160px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+  }
+}
