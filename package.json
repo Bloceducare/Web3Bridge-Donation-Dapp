@@ -1,5 +1,5 @@
 {
-  "name": "donation-dapp",
+  "name": "web3bridge-donation-dapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
